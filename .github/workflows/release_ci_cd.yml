@@ -68,7 +68,7 @@ jobs:
 
       - name: update sha in k8
         run: sed -i 's/{github.sha}/${{github.sha}}/g' manifests/k8s.yaml
-        
+        #modificado
       - name: update nodo
         run: sed -i 's/{nodos}/${{secrets.NODOS_RELEASE}}/g' manifest/k8s.yaml
 
