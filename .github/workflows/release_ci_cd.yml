@@ -70,7 +70,7 @@ jobs:
         run: sed -i 's/{github.sha}/${{github.sha}}/g' manifests/k8s.yaml
         
       - name: update nodo
-        run: sed -i 'i/{nodos}/${{secrets.NODOS_RELEASE}}/g' manifest/k8s.yml
+        run: sed -i 'i/{nodos}/${{secrets.NODOS_RELEASE}}/g' manifest/k8s.yaml
 
       - name: ls -la 
         run: cat manifests/k8s.yaml
