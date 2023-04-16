@@ -147,6 +147,32 @@ body {
   font-size: 15px;
 }
 
+footer {
+  background-color: #fffdfd29;
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.social-icons img {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: contain;
+}
+
+.social-icons img:hover {
+  opacity: 0.8;
+}
+
 @media (max-width: 768px) {
   .characters {
     padding: 0 20px;
