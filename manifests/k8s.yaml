@@ -7,7 +7,6 @@ spec:
   selector:
     matchLabels:
       app: {model_name}-server
-      #cambios
   replicas: {nodos}
   template:
     metadata:
