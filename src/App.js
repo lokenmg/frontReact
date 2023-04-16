@@ -2,7 +2,6 @@ import imageRickMorty from './img/rick-morty.png'
 import "./App.css"
 import { useState } from 'react';
 import Characters from './components/characters';
-import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
 
 
 function App() {
